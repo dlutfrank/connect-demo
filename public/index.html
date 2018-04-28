@@ -1,0 +1,11 @@
+<html>
+    <head>测试JSONP</head>
+    <body>
+        <script type="text/javascript">
+            function test(data){
+                alert(JSON.stringify(data));
+            }
+        </script>
+        <script src='http://127.0.0.1:8080/jsonp/check?callback=test'></script>
+    </body>
+</html>
